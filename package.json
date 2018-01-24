@@ -11,10 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adXiang/admin-fe"
+    "url": "git+https://github.com/adXiang/admin-fe.git"
   },
   "author": "MaWenXiang",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adXiang/admin-fe/issues"
+  },
+  "homepage": "https://github.com/adXiang/admin-fe#readme",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "font-awesome": "^4.6.3",
