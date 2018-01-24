@@ -1,15 +1,15 @@
 /*
-* @Author: Rosen
-* @Date:   2017-02-24 15:49:17
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-04-13 15:59:59
+* @Author: WangHangYun
+* @Date:   2018-01-20 18:24:39
+* @Last Modified by:   WangHangYun
+* @Last Modified time: 2018-01-20 18:24:39
 */
 
 'use strict';
 
-import MMUtile from 'util/mm.jsx';
+import MMUtil from 'util/mm.jsx';
 
-const mm = new MMUtile();
+const mm = new MMUtil();
 
 export default class User{
     // 检查用于登录的信息是否合法

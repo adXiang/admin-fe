@@ -1,14 +1,14 @@
 /*
-* @Author: Rosen
-* @Date:   2017-02-24 10:35:19
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-04-09 23:43:37
+* @Author: WangHangYun
+* @Date:   2018-01-20 18:24:39
+* @Last Modified by:   WangHangYun
+* @Last Modified time: 2018-01-20 18:24:39
 */
 
 'use strict';
-import MMUtile from 'util/mm.jsx';
+import MMUtil from 'util/mm.jsx';
 
-const _mm = new MMUtile();
+const _mm = new MMUtil();
 
 export default class Product{
     

@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-02-09 12:19:54
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-04-09 22:44:21
+* @Author: WangHangYun
+* @Date:   2018-01-20 18:24:39
+* @Last Modified by:   WangHangYun
+* @Last Modified time: 2018-01-20 18:24:39
 */
 
 'use strict';
@@ -14,7 +14,7 @@ import { render } from 'react-dom';
 import { Router, Route, IndexRedirect, Link, hashHistory } from 'react-router';
 // bootstrap
 import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
-import 'node_modules/bootstrap/dist/js/bootstrap.min.js';
+// import 'node_modules/bootstrap/dist/js/bootstrap.min.js';
 // bootstrap sb-admin-2 主题
 import 'node_modules/sb-admin-2/dist/css/sb-admin-2.min.css';
 // font-awesome 字体

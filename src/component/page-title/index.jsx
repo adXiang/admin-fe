@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-02-11 20:06:59
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-02-24 21:06:43
+* @Author: WangHangYun
+* @Date:   2018-01-20 18:24:39
+* @Last Modified by:   WangHangYun
+* @Last Modified time: 2018-01-20 18:24:39
 */
 
 'use strict';
@@ -11,7 +11,7 @@ import ReactDOM from 'react-dom';
 
 const PageTitle = React.createClass({
     componentDidMount(){
-        document.title = this.props.pageTitle || 'MMall Admin'
+        document.title = this.props.pageTitle || 'WHMALL Admin'
     },
     render() {
         return (

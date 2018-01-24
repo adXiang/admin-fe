@@ -1,8 +1,8 @@
 /*
-* @Author: Rosen
-* @Date:   2017-02-11 19:49:01
-* @Last Modified by:   Rosen
-* @Last Modified time: 2017-04-13 16:05:51
+* @Author: WangHangYun
+* @Date:   2018-01-20 18:24:39
+* @Last Modified by:   WangHangYun
+* @Last Modified time: 2018-01-20 18:24:39
 */
 
 'use strict';
@@ -46,7 +46,7 @@ const TopNav = React.createClass({
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#/">MMALL ADMIN</a>
+                    <a className="navbar-brand" href="#/">WHMALL ADMIN</a>
                 </div>
                 <ul className="nav navbar-top-links navbar-right">
                     <li className="dropDown">
