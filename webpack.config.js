@@ -1,8 +1,8 @@
 /*
-* @Author: WangHangYun
+* @Author: MaWenXiang
 * @Date:   2018-01-20 18:24:39
-* @Last Modified by:   WangHangYun
-* @Last Modified time: 2018-01-20 18:33:02
+* @Last Modified by:   MaWenXiang
+* @Last Modified time: 2018-01-24 15:35:29
 * 知识点：css单独打包、全局jquery引用、各种loader
 */
 
@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.wanghangnb.top/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.adxiang.top/admin-fe/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -59,7 +59,7 @@ var config = {
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['es2015']
+                    presets: ['env']
                 }
             },
             {
@@ -67,7 +67,7 @@ var config = {
                 exclude: /(node_modules)/,
                 loader: 'babel-loader',
                 query: {
-                    presets: ['react', 'es2015']
+                    presets: ['react', 'env']
                 }
             },
         ]
@@ -83,7 +83,7 @@ var config = {
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
-            title           : 'WHMALL 后台管理系统',
+            title           : 'MMall后台管理系统',
             template        : './src/index.html',
             favicon         : './favicon.ico',
             inject          : true,
