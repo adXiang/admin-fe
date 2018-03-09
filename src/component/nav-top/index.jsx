@@ -46,7 +46,7 @@ const TopNav = React.createClass({
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand" href="#/">WHMALL ADMIN</a>
+                    <a className="navbar-brand" href="#/">杂货店后台</a>
                 </div>
                 <ul className="nav navbar-top-links navbar-right">
                     <li className="dropDown">
