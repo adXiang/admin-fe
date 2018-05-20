@@ -9,10 +9,10 @@
 
 const conf = {
     // online
-    // serverHost: 'http://admin.wanghangnb.top'
+    // serverHost: 'http://admin.adxiang.top'
     // dev
     serverHost: '',
-    imageHost: 'http://img.wanghangnb.top/',
+    imageHost: 'http://img.adxiang.top/',
 }
 
 class MMUtil{
